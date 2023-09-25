@@ -11,7 +11,6 @@ public class GithubCicdActionsApplication {
 @GetMapping("/welcome")
 	public String welcome(){
 	return "Welcome to CICD example";
-
 	}
 /*	echo "# github-action-example" >> README.md
 	git init
